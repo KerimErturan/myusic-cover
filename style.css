@@ -69,6 +69,46 @@
     background-repeat: no-repeat;
   }
 
+  .block-pp {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8vh;
+
+  }
+  .block-pp a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .block-pp a:hover {
+    text-decoration: underline;
+  }
+
+  .privacy-block {
+    max-width: 1200px;
+    padding: 25px;
+  }
+  .privacy-block h3 {
+    font-size: 24px;
+  }
+  .privacy-block p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 0;
+  }
+
+
+  .screen-mobile {
+    height: auto;
+    min-height: 100vh;
+  }
+
+
   @media only screen and (max-width: 500px) {
     .screen {
       border: 5px black solid;
@@ -77,8 +117,12 @@
     span {
       font-size: 14px;
     }
-  
+
     .screen__board p {
       padding: 0 20px;
+    }
+    .privacy-block p {
+      font-size: 16px;
+      line-height: 25px;
     }
   }
